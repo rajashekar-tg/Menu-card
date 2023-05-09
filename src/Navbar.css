@@ -1,0 +1,41 @@
+.title-line {
+  width: 4rem;
+  height: 0.2rem;
+  background-color: #c59d5f;
+  margin-left: 200px;
+}
+.title h1 {
+  color: #102a42;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 70px;
+}
+body {
+  background-color: aliceblue;
+  font-family: monospace;
+}
+.nav-link {
+  text-decoration: none;
+  margin-left: 45px;
+  color: #c59d5f;
+}
+nav {
+  margin-top: 40px;
+  font-size: 19px;
+}
+.nav-link:hover {
+  background-color: #c59d5f;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 660px) {
+  .title-line {
+    margin-left: 720px;
+  }
+  nav {
+    margin-top: 50px;
+    margin-left: 500px;
+  }
+}
